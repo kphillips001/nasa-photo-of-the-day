@@ -4,8 +4,6 @@ import axios from "axios";
 
 const NasaCard = () => {
     const [nasaCard, setNasaCard] = useState([]);
-    console.log(nasaCard.hdurl);
-    console.log(nasaCard.title);
     useEffect(() => {
 
     axios
