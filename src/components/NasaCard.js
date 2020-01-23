@@ -20,10 +20,10 @@ const NasaCard = () => {
     });
     }, []);
     return(
-        <div className="nasaCard">
-             <NasaCardInfo
-             key={nasaCard.title}
-             data={nasaCard}
+        <div>
+            <NasaCardInfo
+            key={nasaCard.title}
+            data={nasaCard}
              /> 
         </div>
     )
